@@ -1,5 +1,5 @@
 #Show bonuses and penalties in roll
-show_bonuses_penalties_state: no
+show_bonuses_penalties_state: yes
 #Mage Gnosis
 gnosis: 4
 #The Mage's Arcana Dots in the Highest Arcana used in the item crafting
@@ -9,7 +9,7 @@ highest_crafting_arcana: 3
 #Add together all dots required to cast this spell
 total_spell_dots: 3
 #Number of Yantra Dice including Chanting
-yantras: 4
+yantras: 7
 #Bonus from Place of Power
 places_of_power: 1
 #Bonus from full supporting crafters
@@ -19,19 +19,19 @@ supporting_apprentices: 0
 #Is the item Persistant yes/no
 is_persistent: yes
 #What is the duration penalty. This number ignored if persistant as it it autocalculated
-duration_penalty: -4
+duration_penalty: -10
 #Was an extra reach used for Advanced Duration. This is ignored if persistant because the reach is required
 is_duration_extra_reach: yes
 #Was an extra reach used for advanced Scale?
-is_advanced_scale: no
+is_advanced_scale: yes
 #What is the scale penalty?
 scale_penalty: 0
 #What is the primary factor (a Potency/b Duration)
-primary_factor: b
+primary_factor: a
 #How many total reaches above the free reaches where used? Include all reaches including duration because this is not calculated
-extra_reaches: 0
+extra_reaches: 3
 #How much additional mana beyond the 1 free do you want? Even numbers only.
-mana_battery: 10
+mana_battery: 4
 #What is the total of all primary arcana used in prior craftings?
 prior_craftings: 0
 #Is this spell a praxis for the crafter?
@@ -39,12 +39,12 @@ is_praxis: no
 #Does the item contain perfected materials
 is_perfected: yes
 #What is the potency of the spell
-potency: 1
+potency: 9
 #Is the item space sympathetic
 is_sympathetic: no
 #Is the item Temporally sympathetic
 is_temporal_sympathy: no
 #Did you spend a willpower?
-is_willpower: no
+is_willpower: yes
 #Double Crafting Time?
-is_double_time: no
+is_double_time: yes
